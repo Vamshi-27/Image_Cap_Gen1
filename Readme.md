@@ -82,7 +82,7 @@ streamlit run app.py
 
 Upload an image to see results like:
 
-![Screenshot of the Image Caption Generator](images-GUI/ss1.png)
+![Screenshot of the Image Caption Generator](Images-GUI/ss1.png)
 **Generated Caption**: _A dog is running through the snow._
 
 ## Future Improvements
