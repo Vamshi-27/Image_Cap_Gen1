@@ -90,7 +90,7 @@ def generate_caption(model, tokenizer_1, features, max_length):
 # Load the VGG16 model and captioning model
 base_model = VGG16(include_top=True)
 model_vgg = Model(inputs=base_model.inputs, outputs=base_model.get_layer('fc2').output)
-model_caption = load_model('D:\\Projects\\imagecaption_generator\\Models\\model_epoch_7_keras.keras')
+model_caption = load_model('Models\\model_epoch_7_keras.keras')
 
 with open('tokenizer_1.pkl', 'rb') as f:
     tokenizer_1 = pickle.load(f)
